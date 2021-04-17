@@ -1,0 +1,367 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    border: 2px solid black;  
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+    background-color: white;
+    height: 100vh;
+
+
+}
+.header{
+    text-align: center;
+    margin-bottom: 32em !important;
+    margin-right: 13em;
+}
+
+.header p{
+    font-size: 1.3em;
+
+}
+
+ .btn button{
+    
+   position: relative; 
+   bottom: 50em;
+   left: 30em;
+   width: 60%;
+   text-align: left;
+   padding-top:1.2em;
+   background-color: #C0C0C0;
+} 
+.btn p{
+    position: absolute;
+    top: 18.5em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-1 button{
+   position: relative; 
+   bottom: 45em !important;
+   left: 30em;
+   width: 60%;
+   text-align: left;
+   padding-top:1.2em;
+   background-color: #C0C0C0
+}
+.btn-1 ul{
+    position: absolute;
+    top: 23em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-2 button{
+    position: relative; 
+    bottom: 37em !important;
+    left: 30em;
+    width: 60%;
+    text-align: left;
+    padding-top:1.2em;
+    background-color: #C0C0C0
+ }
+ .btn-2 ul{
+    position: absolute;
+    top: 30em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-3 button{
+    position: relative; 
+    bottom: 27em !important;
+    left: 30em;
+    width: 60%;
+    text-align: left;
+    padding-top:1.2em;
+    background-color: #C0C0C0
+ }
+ .btn-3 ul{
+    position: absolute;
+    top: 39em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    border: 2px solid black;
+    border-top: none;  
+    width: 70%;
+    margin: auto;
+    margin-top: -13em !important;
+    background-color: white;
+    height: 100vh;   
+}
+.btn-4 button{
+   position: absolute; 
+    top: 78em!important;
+   left: 30em;
+    width: 60%;
+    text-align: left;
+    padding-top:1.2em;
+    background-color: #C0C0C0;
+ }
+ .btn-4 ul{
+    position: absolute;
+    top: 52em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-5 button{
+    position: absolute; 
+     top: 87em!important;
+    left: 30em;
+     width: 60%;
+     text-align: left;
+     padding-top:1.2em;
+     background-color: #C0C0C0;
+  }
+  .btn-5 ul{
+    position: absolute;
+    top: 58em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-6 button{
+    position: absolute; 
+     top: 107em!important;
+    left: 30em;
+     width: 60%;
+     text-align: left;
+     padding-top:1.2em;
+     background-color: #C0C0C0;
+  }
+  .btn-6 ul{
+    position: absolute;
+    top: 70.8em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+.btn-7 button{
+    position: absolute; 
+     top: 127em!important;
+    left: 30em;
+     width: 60%;
+     text-align: left;
+     padding-top:1.2em;
+     background-color: #C0C0C0;
+}
+.btn-7 p{
+    position: absolute;
+    top: 83.8em;
+    left: 19.6em;
+    width: 60%;
+    font-size: 1.3em;
+}
+@media screen and (max-width: 760px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color:white;
+        height: 100vh;
+    }
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 100vh;
+        border: none;
+        width: 100%;
+        
+
+    }
+    .header{
+        text-align: center;
+        margin-bottom: 0em !important;
+        margin: auto;
+    }
+    .header h1{
+        text-align: center;
+        font-size: 1em;
+     }
+    
+    .header p{
+        margin: auto;
+       text-align: center;
+        font-size: 1em
+    
+    }
+      .btn button{
+    
+        position: relative; 
+        bottom:42em;
+        left: 1em;
+        width: 83%;
+        text-align: left;
+        padding-top:1em;
+        background-color: #C0C0C0;
+        border: none;
+     } 
+     .btn p{
+         position: absolute;
+         top: 11.5em;
+         left: 1.6em;
+         width: 82%;
+         font-size: 0.9em;
+     }
+     .btn-1 button{
+    
+        position: relative; 
+        bottom:33em !important;
+        left: 1em;
+        width: 83%;
+        text-align: left;
+        padding-top:1em;
+        background-color: #C0C0C0;
+        border: none;
+     } 
+     .btn-1 ul{
+         position: absolute;
+         top: 22.5em;
+         left: 1.6em;
+         width: 82%;
+         font-size: 0.9em;
+     }
+     .btn-2 button{
+    
+        position: relative; 
+        bottom:19em !important;
+        left: 1em;
+        width: 83%;
+        text-align: left;
+        padding-top:1em;
+        background-color: #C0C0C0;
+        border: none;
+     } 
+     .btn-2 ul{
+         position: absolute;
+         top: 36.5em;
+         left: 1.6em;
+         width: 82%;
+         font-size: 0.9em;
+     }
+    
+     .btn-3 button{
+    
+        position: relative; 
+        bottom:8em !important;
+        left: 1em;
+        width: 83%;
+        text-align: left;
+        padding-top:1em;
+        background-color: #C0C0C0;
+        border: none;
+     } 
+     .btn-3 ul{
+         position: absolute;
+         top: 49.5em;
+         left: 1.6em;
+         width: 82%;
+         font-size: 0.9em;
+     }
+     
+     .btn-4 button{
+        position: absolute; 
+         top: 70em!important;
+        left: 1em;
+         width: 83%;
+         text-align: left;
+         padding-top:1em;
+         background-color: #C0C0C0;
+         border: none;
+      }
+      .btn-4 ul{
+         position: absolute;
+         top: 61em;
+         left: 1.6em;
+         width: 83%;
+         font-size: 1em;
+     }
+     .btn-5 button{
+        position: absolute; 
+         top: 78em!important;
+        left: 1em;
+         width: 83%;
+         text-align: left;
+         padding-top:1em;
+         background-color: #C0C0C0;
+         border: none;
+      }
+      .btn-5 ul{
+         position: absolute;
+         top: 68em;
+         left: 1.6em;
+         width: 83%;
+         font-size: 1em;
+     }
+     .btn-6 button{
+        position: absolute; 
+         top: 95em!important;
+        left: 1em;
+         width: 83%;
+         text-align: left;
+         padding-top:1em;
+         background-color: #C0C0C0;
+         border: none;
+      }
+      .btn-6 ul{
+         position: absolute;
+         top: 82em;
+         left: 1.6em;
+         width: 83%;
+         font-size: 1em;
+     }
+     .btn-7 button{
+        position: absolute; 
+         top: 112em!important;
+        left: 1em;
+         width: 83%;
+         text-align: left;
+         padding-top:1em;
+         background-color: #C0C0C0;
+         border: none;
+      }
+      .btn-7 p{
+         position: absolute;
+         top: 96em;
+         left: 1.6em;
+         width: 83%;
+         font-size: 1em;
+     }
+    .container-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover; 
+        
+        border: none;  
+        width: 70%;
+        margin: auto;
+        margin-top: -13em !important;
+        background-color: white;
+        height: 100vh;   
+    }
+}
